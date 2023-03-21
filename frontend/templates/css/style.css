@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main {
+  text-align: center;
+  min-height: 100%;
+  width: 100%;
+  background-color: lightcyan;
+  background-size: cover;
+  position: absolute;
+}
+
+.header {
+  background-color: #16263b;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.header-buttons button {
+  text-align: right;
+  margin: auto 10px auto 0px;
+  justify-content: flex-end;
+}
+
+.main-input {
+  width: 100px;
+}
+
+.title {
+  margin-top: 50px;
+}
+
+.master_num {
+  width: 300px;
+  margin: 10px auto;
+}
+
+.main-sub-header {
+  margin-top: 20px;
+}
+
+.start-button {
+  margin: 10px auto;
+}
